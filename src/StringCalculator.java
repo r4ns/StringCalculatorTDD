@@ -10,7 +10,7 @@ public class StringCalculator {
 		if(numbersStr==""){
 			throw new StringCalculatorException();
 		}
-		// not yet implemented
+		
 		return 0;
 	}
 	

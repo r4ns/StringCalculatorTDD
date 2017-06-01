@@ -43,3 +43,5 @@ CompilationAction 1496340118829 StringCalculatorTest.java
 UnitTestCaseAction 1496340119216 StringCalculatorTest.java FAIL
 UnitTestSessionAction 1496340119216 StringCalculatorTest.java FAIL
 EditAction 1496340240371 StringCalculator.java 262 2 2 0
+CompilationAction 1496340240576 StringCalculatorTest.java
+EditAction 1496340253596 StringCalculator.java 240 2 2 0
