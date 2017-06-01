@@ -5,3 +5,6 @@ EditAction 1496339507307 StringCalculatorTest.java 300 2 3 1
 CompilationAction 1496339507933 StringCalculatorTest.java
 RefactoringAction 1496339588651 StringCalculator.java ADD StringCalculator() METHOD
 EditAction 1496339590229 StringCalculator.java 209 2 1 0
+CompilationAction 1496339618428 StringCalculatorTest.java
+UnitTestCaseAction 1496339621133 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1496339621134 StringCalculatorTest.java FAIL

@@ -12,7 +12,7 @@ public class StringCalculatorTest {
 	@Test 
 	public void testiranjeKonstruktor()
 	{
-		StringKalkulator kalkulator= new StringKalkulator();
+		StringCalculator kalkulator= new StringCalculator();
 		
 		assertNotNull(kalkulator);
 	}
