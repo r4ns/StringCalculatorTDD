@@ -21,6 +21,7 @@ public class StringCalculatorTest {
 	public void test_string_negativeNumber() throws StringCalculatorException{
 		StringCalculator kalkulator=new StringCalculator();
 		kalkulator.add("-");
+		
 	
 	}
 }
