@@ -12,7 +12,7 @@ public class StringCalculator {
 		}
 		else if(numbersStr.contains("-")){
 			throw new StringCalculatorException("Nije moguce vrsiti operacije sa negativnim brojevima");
-		} else {
+		} else if(numbersStr.contains(",")){
 			
 			String[] niz=numbersStr.split(",");
 			int rezultat=0;
