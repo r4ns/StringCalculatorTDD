@@ -5,8 +5,9 @@ import org.junit.Test;
 public class StringCalculatorTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void test_create_calculator() {
+		StringCalculator kalkulator=new StringCalculator();
+		assertNotNull(kalkulator);
 	}
 
 }

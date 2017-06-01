@@ -11,3 +11,4 @@ RefactoringAction 1496339568346 StringCalculatorTest.java RENAME test_create()=>
 RefactoringAction 1496339569859 StringCalculatorTest.java RENAME test_create_()=>void test_create_calcu() METHOD
 RefactoringAction 1496339572374 StringCalculatorTest.java RENAME test_create_calcu()=>void test_create_calculator() METHOD
 EditAction 1496339655837 StringCalculator.java 182 1 1 0
+EditAction 1496339656052 StringCalculatorTest.java 232 1 2 1
