@@ -5,9 +5,11 @@ public class StringCalculator {
 		
 		
 	}
-	public int add(String numbersStr) {
-		// Returns the sum of the numbers given in numbersStr
+	public int add(String numbersStr) throws StringCalculatorException {
 		
+		if(numbersStr==""){
+			throw new StringCalculatorException();
+		}
 		// not yet implemented
 		return 0;
 	}

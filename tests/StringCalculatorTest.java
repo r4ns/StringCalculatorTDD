@@ -10,10 +10,12 @@ public class StringCalculatorTest {
 		assertNotNull(kalkulator);
 	}
 	
-	@Test(expected=StringCalculatorException)
-	public void test_create_calculator() throws StringCalculatorException{
+	@Test(expected=StringCalculatorException.class)
+	public void test_string_null(){
 		StringCalculator kalkulator=new StringCalculator();
-		assertNotNull(kalkulator);
+		kalkulator.add("");
+		
+		
 	}
 	
 
