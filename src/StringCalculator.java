@@ -10,9 +10,10 @@ public class StringCalculator {
 		else{
 			int zbir=0;
 		
-		for(int i = 0; i<separated.length;i++){
-			zbir+=Integer.parseInt(separated[i]);
+			for(int i = 0; i<separated.length;i++){
+				zbir+=Integer.parseInt(separated[i]);
+			}
+			return zbir;
 		}
-		return zbir;
-	}}
+	}
 }
