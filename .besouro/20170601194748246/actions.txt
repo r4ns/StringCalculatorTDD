@@ -130,3 +130,6 @@ RefactoringAction 1496343114283 StringCalculatorTest.java RENAME test_addNumbers
 RefactoringAction 1496343115293 StringCalculatorTest.java RENAME test_addNumbers_newLine_()=>void test_addNumbers_newLine_cma() METHOD
 RefactoringAction 1496343117804 StringCalculatorTest.java RENAME test_addNumbers_newLine_cma()=>void test_addNumbers_newLine_coma() METHOD
 EditAction 1496343129475 StringCalculatorTest.java 1282 6 15 4
+UnitTestCaseAction 1496343132625 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1496343132626 StringCalculatorTest.java FAIL
+EditAction 1496343285009 StringCalculator.java 829 2 2 0

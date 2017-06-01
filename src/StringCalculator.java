@@ -10,7 +10,7 @@ public class StringCalculator {
 		if(numbersStr==""){
 			throw new StringCalculatorException("Input nije validan");
 		}
-		else if(numbersStr.contains("-")){
+		else if(numbersStr.contains("-") ){
 			throw new StringCalculatorException("Nije moguce vrsiti operacije sa negativnim brojevima");
 		} else if(numbersStr.contains(",")){
 			
@@ -21,6 +21,7 @@ public class StringCalculator {
 				rezultat=rezultat+Integer.parseInt(niz[i]);
 			}
 			return rezultat;
+			
 		} else if(numbersStr.contains("\n")){
 			
 			String[] niz=numbersStr.split("\n");
