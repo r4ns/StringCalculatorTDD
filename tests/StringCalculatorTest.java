@@ -11,7 +11,7 @@ public class StringCalculatorTest {
 	}
 	
 	@Test(expected=StringCalculatorException)
-	public void test_create_calculator() {
+	public void test_create_calculator() throws StringCalculatorException{
 		StringCalculator kalkulator=new StringCalculator();
 		assertNotNull(kalkulator);
 	}
