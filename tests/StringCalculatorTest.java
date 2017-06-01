@@ -9,4 +9,11 @@ public class StringCalculatorTest {
 		fail("Not yet implemented");
 	}
 
+	@Test 
+	public void testiranjeKonstruktor()
+	{
+		StringKalkulator kalkulator= new StringKalkulator();
+		
+		assertNotNull(kalkulator);
+	}
 }
