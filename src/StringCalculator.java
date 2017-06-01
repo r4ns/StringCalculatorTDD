@@ -6,6 +6,7 @@ public class StringCalculator {
 		String[] separated = numbersStr.split(",");
 		String sep = Arrays.toString(separated);
 		String[] novi = sep.split("\n");
+		System.out.println(novi);
 		if(numbersStr == " ")
 			return 0;
 		// not yet implemented
