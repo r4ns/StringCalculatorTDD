@@ -77,3 +77,6 @@ RefactoringAction 1496341301256 StringCalculatorTest.java RENAME test_string_neg
 RefactoringAction 1496341306269 StringCalculatorTest.java RENAME test_string_posNumber()=>void test_addNumber() METHOD
 RefactoringAction 1496341309780 StringCalculatorTest.java RENAME test_addNumber()=>void test_addNumbers_coma() METHOD
 EditAction 1496341784520 StringCalculatorTest.java 848 4 9 2
+UnitTestCaseAction 1496341786498 StringCalculatorTest.java OK
+UnitTestSessionAction 1496341786499 StringCalculatorTest.java OK
+EditAction 1496341804007 StringCalculatorTest.java 848 4 9 2
