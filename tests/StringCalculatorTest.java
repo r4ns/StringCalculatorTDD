@@ -29,7 +29,6 @@ public class StringCalculatorTest {
 		StringCalculator kalkulator=new StringCalculator();
 		int rezultat=kalkulator.add("2,2,3,1,1,1");
 		assertEquals(10,rezultat);
-		
-	
+
 	}
 }

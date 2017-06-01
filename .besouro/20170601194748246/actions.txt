@@ -101,3 +101,4 @@ UnitTestCaseAction 1496342557755 StringCalculatorTest.java OK
 UnitTestSessionAction 1496342557756 StringCalculatorTest.java OK
 EditAction 1496342573727 StringCalculator.java 571 2 1 0
 EditAction 1496342836864 StringCalculator.java 573 2 1 0
+EditAction 1496342853069 StringCalculatorTest.java 854 4 9 2
