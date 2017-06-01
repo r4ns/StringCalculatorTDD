@@ -10,5 +10,11 @@ public class StringCalculatorTest {
 		int result= calculator.add(" ");
 		assertEquals("Not valid result", 0, result);
 	}
+	@Test
+	public void test_ResultWithComas(){
+		StringCalculator calculator = new StringCalculator();
+		int result= calculator.add("1,2,3");
+		assertEquals("Not valid result",6 , result);
+	}
 
 }
