@@ -15,11 +15,9 @@ public class StringCalculator {
 		} else {
 			
 			String[] niz=numbersStr.split(",");
-			//int[] nizBrojeva=null;
 			int rezultat=0;
 			for(int i=0;i<niz.length;i++){
 				
-				//nizBrojeva[i]=Integer.parseInt(niz[i]);
 				rezultat=rezultat+Integer.parseInt(niz[i]);
 			}
 			return rezultat;
