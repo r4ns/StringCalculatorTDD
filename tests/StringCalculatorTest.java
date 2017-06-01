@@ -22,5 +22,11 @@ public class StringCalculatorTest {
 		int result= calculator.add("1\n2\n3");
 		assertEquals("Not valid result", 6 , result);
 	}
+	@Test
+	public void test_ResultWithNewLineAndComa(){
+		StringCalculator calculator = new StringCalculator();
+		int result= calculator.add("1,2\n3");
+		assertEquals("Not valid result", 6 , result);
+	}
 
 }
