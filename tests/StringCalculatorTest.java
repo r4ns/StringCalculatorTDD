@@ -9,5 +9,12 @@ public class StringCalculatorTest {
 		StringCalculator kalkulator=new StringCalculator();
 		assertNotNull(kalkulator);
 	}
+	
+	@Test(expected=StringCalculatorException)
+	public void test_create_calculator() {
+		StringCalculator kalkulator=new StringCalculator();
+		assertNotNull(kalkulator);
+	}
+	
 
 }

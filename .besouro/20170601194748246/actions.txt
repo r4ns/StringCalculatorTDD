@@ -27,3 +27,5 @@ EditAction 1496339773833 StringCalculator.java 214 2 1 0
 UnitTestCaseAction 1496339774317 StringCalculatorTest.java OK
 UnitTestSessionAction 1496339774318 StringCalculatorTest.java OK
 EditAction 1496339784476 StringCalculator.java 217 2 1 0
+RefactoringAction 1496339841165 StringCalculatorTest.java ADD void test_create_calculator()/2 METHOD
+EditAction 1496339871240 StringCalculatorTest.java 405 2 4 2
