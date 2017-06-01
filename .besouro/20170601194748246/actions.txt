@@ -70,3 +70,10 @@ CompilationAction 1496341167945 StringCalculator.java
 UnitTestCaseAction 1496341170061 StringCalculatorTest.java OK
 UnitTestSessionAction 1496341170061 StringCalculatorTest.java OK
 EditAction 1496341233376 StringCalculatorTest.java 644 3 6 1
+UnitTestCaseAction 1496341235569 StringCalculatorTest.java OK
+UnitTestSessionAction 1496341235569 StringCalculatorTest.java OK
+RefactoringAction 1496341294243 StringCalculatorTest.java ADD void test_string_negativeNumber()/2 METHOD
+RefactoringAction 1496341301256 StringCalculatorTest.java RENAME test_string_negativeNumber()/2=>void test_string_posNumber() METHOD
+RefactoringAction 1496341306269 StringCalculatorTest.java RENAME test_string_posNumber()=>void test_addNumber() METHOD
+RefactoringAction 1496341309780 StringCalculatorTest.java RENAME test_addNumber()=>void test_addNumbers_coma() METHOD
+EditAction 1496341784520 StringCalculatorTest.java 848 4 9 2

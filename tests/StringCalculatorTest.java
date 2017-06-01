@@ -24,4 +24,11 @@ public class StringCalculatorTest {
 		
 	
 	}
+	public void test_addNumbers_coma() throws StringCalculatorException{
+		StringCalculator kalkulator=new StringCalculator();
+		int rezultat=kalkulator.add("123,2,3");
+		assertEquals(rezultat,128);
+		
+	
+	}
 }
