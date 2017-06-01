@@ -105,3 +105,6 @@ EditAction 1496343236621 StringCalculator.java 752 1 5 0
 UnitTestCaseAction 1496343240078 StringCalculatorTest.java OK
 UnitTestSessionAction 1496343240082 StringCalculatorTest.java OK
 EditAction 1496343302054 StringCalculator.java 837 1 5 0
+RefactoringAction 1496343311836 StringCalculatorTest.java ADD void test_exceptionOneNumber()/2 METHOD
+RefactoringAction 1496343331960 StringCalculatorTest.java RENAME test_exceptionOneNumber()/2=>void test_exceptionNegativeNumber() METHOD
+EditAction 1496343333169 StringCalculatorTest.java 1460 6 16 4

@@ -34,4 +34,10 @@ public class StringCalculatorTest {
 		int result= calculator.add("1,");
 		
 	}
+	@Test (expected=StringCalculatorException.class)
+	public void test_exceptionNegativeNumber() throws StringCalculatorException{
+		StringCalculator calculator = new StringCalculator();
+		int result= calculator.add("-1,2,3");
+		
+	}
 }
