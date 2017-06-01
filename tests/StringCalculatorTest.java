@@ -39,4 +39,12 @@ public class StringCalculatorTest {
 		assertEquals(15,rezultat);
 
 	}
+	
+	@Test
+	public void test_addNumbers_newLine_coma() throws StringCalculatorException{
+		StringCalculator kalkulator=new StringCalculator();
+		int rezultat=kalkulator.add("2,2\n11");
+		assertEquals(15,rezultat);
+
+	}
 }

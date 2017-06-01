@@ -123,3 +123,10 @@ CompilationAction 1496343069430 StringCalculator.java
 UnitTestCaseAction 1496343072478 StringCalculatorTest.java FAIL
 UnitTestSessionAction 1496343072479 StringCalculatorTest.java FAIL
 EditAction 1496343092045 StringCalculator.java 824 2 2 0
+UnitTestCaseAction 1496343093786 StringCalculatorTest.java OK
+UnitTestSessionAction 1496343093787 StringCalculatorTest.java OK
+RefactoringAction 1496343110774 StringCalculatorTest.java ADD void test_addNumbers_newLine()/2 METHOD
+RefactoringAction 1496343114283 StringCalculatorTest.java RENAME test_addNumbers_newLine()/2=>void test_addNumbers_newLine_() METHOD
+RefactoringAction 1496343115293 StringCalculatorTest.java RENAME test_addNumbers_newLine_()=>void test_addNumbers_newLine_cma() METHOD
+RefactoringAction 1496343117804 StringCalculatorTest.java RENAME test_addNumbers_newLine_cma()=>void test_addNumbers_newLine_coma() METHOD
+EditAction 1496343129475 StringCalculatorTest.java 1282 6 15 4
