@@ -11,7 +11,7 @@ public class StringCalculator {
 			if(separated[i]==",")
 				 novi = sep.split(",");
 			sep +=separated[i];
-			novi[i]=sep;
+			
 		}
 		
 		
