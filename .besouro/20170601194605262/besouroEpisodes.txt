@@ -250,3 +250,12 @@
 1496342883474 test-addition 1 15 true
 1496342900930 regression 1 0 true
 1496342904057 regression 1 0 true
+1496343240082 refactoring 3 253 true
+1496343240083 refactoring 3 253 true
+1496343240084 refactoring 3 253 true
+1496343240085 refactoring 3 253 true
+1496343240086 refactoring 3 253 true
+1496343240087 refactoring 3 253 true
+1496343240088 refactoring 3 253 true
+1496343240089 refactoring 3 253 true
+1496343240090 refactoring 3 253 true

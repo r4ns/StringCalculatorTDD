@@ -23,7 +23,8 @@ public class StringCalculator {
 					throw new StringCalculatorException();
 				}
 				for(int i = 0; i<split_string.length;i++){
-				
+					if(Integer.parseInt(split_string[i])<0)
+						throw new StringCalculatorException();
 					zbir+=Integer.parseInt(split_string[i]);
 				
 			}

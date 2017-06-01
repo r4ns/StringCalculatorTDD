@@ -102,3 +102,6 @@ RefactoringAction 1496342990141 StringCalculatorTest.java RENAME test_exception=
 FileOpenedAction 1496343014721 StringCalculatorException.java 63 0 0 0
 EditAction 1496343142348 StringCalculatorTest.java 1098 5 14 4
 EditAction 1496343236621 StringCalculator.java 752 1 5 0
+UnitTestCaseAction 1496343240078 StringCalculatorTest.java OK
+UnitTestSessionAction 1496343240082 StringCalculatorTest.java OK
+EditAction 1496343302054 StringCalculator.java 837 1 5 0
