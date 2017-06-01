@@ -16,3 +16,4 @@ UnitTestCaseAction 1496339657471 StringCalculatorTest.java OK
 UnitTestSessionAction 1496339657473 StringCalculatorTest.java OK
 FileOpenedAction 1496339695883 StringCalculatorException.java 63 0 0 0
 EditAction 1496339715040 StringCalculatorTest.java 229 1 2 1
+EditAction 1496339718492 StringCalculator.java 182 1 1 0
