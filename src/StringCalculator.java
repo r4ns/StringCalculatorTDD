@@ -10,7 +10,9 @@ public class StringCalculator {
 		if(numbersStr==""){
 			throw new StringCalculatorException();
 		}
-		
+		else if(numbersStr.contains("-")){
+			throw new StringCalculatorException();
+		}
 		return 0;
 	}
 	
