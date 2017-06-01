@@ -60,3 +60,8 @@ UnitTestCaseAction 1496340818015 StringCalculatorTest.java FAIL
 UnitTestSessionAction 1496340818015 StringCalculatorTest.java FAIL
 EditAction 1496340846720 StringCalculatorTest.java 641 3 6 1
 EditAction 1496340947127 StringCalculator.java 320 2 2 0
+UnitTestCaseAction 1496340950016 StringCalculatorTest.java OK
+UnitTestSessionAction 1496340950017 StringCalculatorTest.java OK
+RefactoringAction 1496341104684 StringCalculatorException.java ADD StringCalculatorException() METHOD
+RefactoringAction 1496341108192 StringCalculatorException.java RENAME StringCalculatorException()=>StringCalculatorException(String) METHOD
+EditAction 1496341128183 StringCalculatorException.java 137 1 1 0
