@@ -79,3 +79,6 @@ RefactoringAction 1496342298314 StringCalculator.java ADD import java.util.Array
 UnitTestCaseAction 1496342440003 StringCalculatorTest.java FAIL
 UnitTestSessionAction 1496342440005 StringCalculatorTest.java FAIL
 EditAction 1496342453246 StringCalculator.java 641 1 4 0
+UnitTestCaseAction 1496342458489 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1496342458491 StringCalculatorTest.java FAIL
+EditAction 1496342483713 StringCalculator.java 663 1 4 0
