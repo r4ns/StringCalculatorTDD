@@ -246,3 +246,7 @@
 1496342763569 test-first 3 2654 true
 1496342763570 test-first 3 2654 true
 1496342763571 test-first 3 2654 true
+1496342883473 test-addition 1 15 true
+1496342883474 test-addition 1 15 true
+1496342900930 regression 1 0 true
+1496342904057 regression 1 0 true

@@ -28,5 +28,10 @@ public class StringCalculatorTest {
 		int result= calculator.add("1,2\n3");
 		assertEquals("Not valid result", 6 , result);
 	}
-
+	@Test (expected=StringCalculatorException.class)
+	public void test_exceptionOneNumber() throws StringCalculatorException{
+		StringCalculator calculator = new StringCalculator();
+		int result= calculator.add("1,");
+		
+	}
 }
