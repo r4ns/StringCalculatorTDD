@@ -1,2 +1,13 @@
 FileOpenedAction 1496339268628 StringCalculator.java 171 1 1 0
 EditAction 1496339332564 StringCalculator.java 179 1 1 0
+RefactoringAction 1496339393190 StringCalculator.java ADD String java FIELD
+RefactoringAction 1496339437376 StringCalculator.java RENAME java=>String jav FIELD
+RefactoringAction 1496339438886 StringCalculator.java RENAME jav=>String ja FIELD
+RefactoringAction 1496339457457 StringCalculator.java REMOVE ja FIELD
+FileOpenedAction 1496339555237 StringCalculatorTest.java 162 1 1 0
+RefactoringAction 1496339564296 StringCalculatorTest.java RENAME test()=>void test FIELD
+RefactoringAction 1496339567332 StringCalculatorTest.java RENAME test_()=>void test_create() METHOD
+RefactoringAction 1496339568346 StringCalculatorTest.java RENAME test_create()=>void test_create_() METHOD
+RefactoringAction 1496339569859 StringCalculatorTest.java RENAME test_create_()=>void test_create_calcu() METHOD
+RefactoringAction 1496339572374 StringCalculatorTest.java RENAME test_create_calcu()=>void test_create_calculator() METHOD
+EditAction 1496339655837 StringCalculator.java 182 1 1 0
