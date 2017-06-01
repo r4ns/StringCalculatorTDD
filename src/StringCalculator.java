@@ -4,7 +4,11 @@ public class StringCalculator {
 	public int add(String numbersStr) {
 		// Returns the sum of the numbers given in numbersStr
 		String[] separated = numbersStr.split(",");
-		String sep = Arrays.toString(separated);
+		String sep= """;
+		for(int i = 0; i<separated.length; i++)
+		{
+			sep +=separated[i];
+		}
 		String[] novi = sep.split("\n");
 		
 		if(numbersStr == " ")
@@ -15,9 +19,9 @@ public class StringCalculator {
 				int zbir=0;
 				
 				for(int i = 0; i<novi.length;i++){
-					//System.out.println(novi[i]);
-				zbir+=Integer.parseInt(novi[i]);
-				System.out.println(novi[i]);
+				
+					zbir+=Integer.parseInt(novi[i]);
+				
 			}
 			return zbir;
 		}
