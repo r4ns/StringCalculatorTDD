@@ -1,9 +1,47 @@
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class StringCalculator {
-	public int add(String numbersStr) {
-		// Returns the sum of the numbers given in numbersStr
+	public int add(String numbersStr) throws StringCalculatorException {
+		if (numbersStr == "") {
+			throw new StringCalculatorException("Dati input nije validan");	
+			
+		} else if (numbersStr.contains("-")) {
+			throw new StringCalculatorException("Nije moguce vrsiti datu operaciju sa negativnim brojevima");
+			
+		} else if (numbersStr.contains(",")) {
+			String[] niz = numbersStr.split(",");	
+			int rezultat = 0;
+			for(int i=0; i < niz.length; i++) {
+				rezultat = rezultat + Integer.parseInt(niz[i]);
+			}
+			return rezultat;
+			
+		} else if (numbersStr.contains("\n")) {
+			String[] niz = numbersStr.split("\n");	
+			int rezultat = 0;
+			for(int i=0; i < niz.length; i++) {
+				rezultat = rezultat + Integer.parseInt(niz[i]);
+			}
+			return rezultat;
+		} else if (numbersStr.contains(",\n")) {
+			String[] niz = numbersStr.split(",\n");	
+			int rezultat = 0;
+			for(int i=0; i < niz.length; i++) {
+				rezultat = rezultat + Integer.parseInt(niz[i]);
+			}
+			return rezultat;
+		} 	
 		
-		// not yet implemented
-		return 0;
+		return 0;	
 	}
+	
+	public StringCalculator() {
+	
+	}
+	
+	
+	
+
 }
