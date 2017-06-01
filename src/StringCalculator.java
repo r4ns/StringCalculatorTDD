@@ -6,4 +6,9 @@ public class StringCalculator {
 		// not yet implemented
 		return 0;
 	}
+	public StringCalculator()
+	{
+		
+	}
+	
 }

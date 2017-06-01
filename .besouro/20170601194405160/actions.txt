@@ -2,3 +2,6 @@ FileOpenedAction 1496339045558 StringCalculatorTest.java 162 2 1 0
 RefactoringAction 1496339063605 StringCalculatorTest.java RENAME test()/2=>void testy() METHOD
 RefactoringAction 1496339415895 StringCalculatorTest.java RENAME testy()=>void testiranjeKonstruktor() METHOD
 EditAction 1496339507307 StringCalculatorTest.java 300 2 3 1
+CompilationAction 1496339507933 StringCalculatorTest.java
+RefactoringAction 1496339588651 StringCalculator.java ADD StringCalculator() METHOD
+EditAction 1496339590229 StringCalculator.java 209 2 1 0
