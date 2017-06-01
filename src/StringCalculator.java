@@ -4,12 +4,16 @@ public class StringCalculator {
 	public int add(String numbersStr) {
 		// Returns the sum of the numbers given in numbersStr
 		String[] separated = numbersStr.split(",");
-		String sep= """;
+		String sep= "";
+		String[] novi={};
 		for(int i = 0; i<separated.length; i++)
-		{
-			sep +=separated[i];
+		{   sep +=separated[i];
+			if(separated[i]=="\n")
+				novi = sep.split("\n");
+			
 		}
-		String[] novi = sep.split("\n");
+		
+		
 		
 		if(numbersStr == " ")
 			return 0;
