@@ -13,9 +13,11 @@ public class StringCalculator {
 		
 		else{
 				int zbir=0;
-				System.out.println(novi[i]);
+				
 				for(int i = 0; i<novi.length;i++){
+					//System.out.println(novi[i]);
 				zbir+=Integer.parseInt(novi[i]);
+				System.out.println(novi[i]);
 			}
 			return zbir;
 		}
