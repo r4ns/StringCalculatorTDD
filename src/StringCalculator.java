@@ -6,11 +6,13 @@ public class StringCalculator {
 		if(numbersStr == " ")
 			return 0;
 		// not yet implemented
-		int zbir=0;
+		
+		else{
+			int zbir=0;
+		
 		for(int i = 0; i<separated.length;i++){
 			zbir+=Integer.parseInt(separated[i]);
-		
 		}
 		return zbir;
-	}
+	}}
 }
