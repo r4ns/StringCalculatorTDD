@@ -9,7 +9,7 @@ public class StringCalculator {
 		for(int i = 0; i<separated.length; i++)
 		{
 			if(separated[i]==",")
-				 novi = sep.split(",");
+				 separated[i]=separated[i+1];
 			sep +=separated[i];
 			
 		}
