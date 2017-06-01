@@ -101,3 +101,4 @@ RefactoringAction 1496342986118 StringCalculatorTest.java ADD void test_exceptio
 RefactoringAction 1496342990141 StringCalculatorTest.java RENAME test_exception=>void test_exceptionOneNumber() METHOD
 FileOpenedAction 1496343014721 StringCalculatorException.java 63 0 0 0
 EditAction 1496343142348 StringCalculatorTest.java 1098 5 14 4
+EditAction 1496343236621 StringCalculator.java 752 1 5 0
