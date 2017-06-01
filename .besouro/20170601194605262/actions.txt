@@ -29,3 +29,7 @@ RefactoringAction 1496340109005 StringCalculatorTest.java ADD void test_ResultWi
 RefactoringAction 1496340115105 StringCalculatorTest.java RENAME test_ResultWithComas()/2=>void test_ResultWithNewLine() METHOD
 EditAction 1496340360748 StringCalculator.java 440 1 4 0
 EditAction 1496340365790 StringCalculatorTest.java 676 3 9 3
+UnitTestCaseAction 1496340368874 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1496340368876 StringCalculatorTest.java FAIL
+RefactoringAction 1496340479418 StringCalculator.java ADD import java.util.Arrays IMPORT
+EditAction 1496340483428 StringCalculator.java 473 1 4 0
