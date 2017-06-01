@@ -102,3 +102,9 @@ UnitTestSessionAction 1496342557756 StringCalculatorTest.java OK
 EditAction 1496342573727 StringCalculator.java 571 2 1 0
 EditAction 1496342836864 StringCalculator.java 573 2 1 0
 EditAction 1496342853069 StringCalculatorTest.java 854 4 9 2
+RefactoringAction 1496342859469 StringCalculatorTest.java ADD void test_addNumbers_coma()/2 METHOD
+RefactoringAction 1496342863979 StringCalculatorTest.java RENAME test_addNumbers_coma()/2=>void test_addNumbers_() METHOD
+RefactoringAction 1496342864990 StringCalculatorTest.java RENAME test_addNumbers_()=>void test_addNumbers_ FIELD
+RefactoringAction 1496342873036 StringCalculatorTest.java RENAME test_addNumbers_()=>void test_addNumbers_newL() METHOD
+RefactoringAction 1496342874543 StringCalculatorTest.java RENAME test_addNumbers_newL()=>void test_addNumbers_newLine() METHOD
+EditAction 1496342900915 StringCalculatorTest.java 1066 5 12 3
