@@ -9,7 +9,8 @@ public class StringCalculator {
 		int zbir=0;
 		for(int i = 0; i<separated.length;i++){
 			zbir+=Integer.parseInt(separated[i]);
+		
 		}
-		return 0;
+		return zbir;
 	}
 }

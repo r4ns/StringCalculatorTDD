@@ -13,3 +13,6 @@ RefactoringAction 1496339834236 StringCalculatorTest.java RENAME test_Result()=>
 RefactoringAction 1496339835261 StringCalculatorTest.java RENAME test_ResultWithC()=>void test_ResultWithComas() METHOD
 EditAction 1496339842898 StringCalculatorTest.java 483 2 6 2
 EditAction 1496339924830 StringCalculator.java 358 1 5 0
+UnitTestCaseAction 1496339931097 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1496339931100 StringCalculatorTest.java FAIL
+EditAction 1496339964179 StringCalculator.java 364 1 5 0
