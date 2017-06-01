@@ -51,3 +51,8 @@ CompilationAction 1496340295126 StringCalculatorTest.java
 UnitTestCaseAction 1496340295510 StringCalculatorTest.java OK
 UnitTestSessionAction 1496340295511 StringCalculatorTest.java OK
 EditAction 1496340305104 StringCalculatorTest.java 432 2 4 1
+RefactoringAction 1496340799767 StringCalculatorTest.java ADD void test_string_null()/2 METHOD
+RefactoringAction 1496340805285 StringCalculatorTest.java RENAME test_string_null()/2=>void test_string_() METHOD
+RefactoringAction 1496340808296 StringCalculatorTest.java RENAME test_string_()=>void test_string_negative() METHOD
+RefactoringAction 1496340809803 StringCalculatorTest.java RENAME test_string_negative()=>void test_string_negativeNumber() METHOD
+EditAction 1496340815581 StringCalculatorTest.java 638 3 6 1
