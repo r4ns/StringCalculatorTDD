@@ -108,3 +108,6 @@ RefactoringAction 1496342864990 StringCalculatorTest.java RENAME test_addNumbers
 RefactoringAction 1496342873036 StringCalculatorTest.java RENAME test_addNumbers_()=>void test_addNumbers_newL() METHOD
 RefactoringAction 1496342874543 StringCalculatorTest.java RENAME test_addNumbers_newL()=>void test_addNumbers_newLine() METHOD
 EditAction 1496342900915 StringCalculatorTest.java 1066 5 12 3
+UnitTestCaseAction 1496342903190 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1496342903191 StringCalculatorTest.java FAIL
+EditAction 1496342922987 StringCalculator.java 571 2 1 0

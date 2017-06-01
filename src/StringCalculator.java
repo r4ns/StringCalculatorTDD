@@ -14,7 +14,7 @@ public class StringCalculator {
 			throw new StringCalculatorException("Nije moguce vrsiti operacije sa negativnim brojevima");
 		} else {
 			
-			String[] niz=numbersStr.split(",\n");
+			String[] niz=numbersStr.split(",");
 			int rezultat=0;
 			for(int i=0;i<niz.length;i++){
 				
