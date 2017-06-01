@@ -11,11 +11,10 @@ public class StringCalculatorTest {
 	}
 	
 	@Test(expected=StringCalculatorException.class)
-	public void test_string_null(){
+	public void test_string_null() throws StringCalculatorException{
 		StringCalculator kalkulator=new StringCalculator();
 		kalkulator.add("");
-		
-		
+	
 	}
 	
 
