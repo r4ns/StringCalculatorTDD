@@ -28,5 +28,17 @@ public class StringCalculatorTest {
 	}
 	
 	
+	
+	@Test(expected=StringCalculatorException.class)
+	public void testString3(){
+		
+		StringCalculator calc = new StringCalculator();
+		calc.add("1\n");
+		
+		
+	}
+	
+	
+	
 
 }
