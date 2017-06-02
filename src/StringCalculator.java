@@ -11,7 +11,7 @@ public class StringCalculator {
 			{
 				throw new StringCalculatorException();
 			}
-			if(numbersStr.length()==0)
+			if(numbersStr=="")
 			{
 				return 0;
 			}
