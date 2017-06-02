@@ -6,7 +6,10 @@ public class StringCalculatorTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		
+		StringCalculator calc = new StringCalculator();
+		assertEquals(0,calc.add(""));
+		
 	}
 
 }
