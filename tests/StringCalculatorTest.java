@@ -17,7 +17,16 @@ public class StringCalculatorTest {
 		StringCalculator calc = new StringCalculator();
 		assertEquals(5,calc.add("2,3"));
 		
+	}
+	
+	@Test
+	public void testString2(){
+		
+		StringCalculator calc = new StringCalculator();
+		assertEquals(10,calc.add("2\n,3,5"));
 		
 	}
+	
+	
 
 }
