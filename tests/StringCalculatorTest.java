@@ -36,6 +36,7 @@ public class StringCalculatorTest {
 		calc.add("1\n");
 		
 		
+		
 	}
 	
 	
