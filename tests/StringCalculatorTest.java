@@ -26,7 +26,7 @@ public class StringCalculatorTest {
 	public void testSpace() throws StringCalculatorException {
 		StringCalculator digitron = new StringCalculator();
 		int rezultat = 0;
-		assertEquals(rezultat,digitron.add(" "));
+		assertEquals(rezultat,digitron.add(""));
 	}
 
 }

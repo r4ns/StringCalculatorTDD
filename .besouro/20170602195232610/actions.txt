@@ -42,3 +42,6 @@ RefactoringAction 1496426739088 StringCalculatorTest.java ADD void testChar()/2 
 RefactoringAction 1496426745112 StringCalculatorTest.java RENAME testChar()/2=>void test() METHOD
 RefactoringAction 1496426746639 StringCalculatorTest.java RENAME test()=>void testSpace() METHOD
 EditAction 1496426755507 StringCalculatorTest.java 860 4 12 4
+UnitTestCaseAction 1496426760417 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1496426760420 StringCalculatorTest.java FAIL
+EditAction 1496426770605 StringCalculatorTest.java 859 4 12 4
