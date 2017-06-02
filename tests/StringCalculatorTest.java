@@ -34,5 +34,20 @@ public class StringCalculatorTest {
 		int rezultat = 123;
 		assertEquals(rezultat,digitron.add("123"));
 	}
+	@Test(expected=StringCalculatorException.class)
+	public void testAddExceptionMinus() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		digitron.add("-1,2,3");
+	}
+	@Test(expected=StringCalculatorException.class)
+	public void testAddExceptionn() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		digitron.add("1,\n");
+	}
+	@Test(expected=StringCalculatorException.class)
+	public void testAddExceptionn2() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		digitron.add("1\n,");
+	}
 
 }
