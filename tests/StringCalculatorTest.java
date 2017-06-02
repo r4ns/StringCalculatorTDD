@@ -49,5 +49,11 @@ public class StringCalculatorTest {
 		StringCalculator digitron = new StringCalculator();
 		digitron.add("1\n,");
 	}
+	@Test
+	public void testOduzmiPocetak() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		int rezultat = 0;
+		assertEquals(rezultat,digitron.oduzimanje(""));
+	}
 
 }

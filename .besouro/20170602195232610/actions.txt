@@ -83,3 +83,4 @@ RefactoringAction 1496427633770 StringCalculator.java ADD int oduzimanje FIELD
 RefactoringAction 1496427635795 StringCalculator.java RENAME oduzimanje=>int oduzimanje() METHOD
 RefactoringAction 1496427641857 StringCalculator.java RENAME oduzimanje()=>int oduzimanje(String) METHOD
 EditAction 1496427780571 StringCalculator.java 1517 2 16 0
+EditAction 1496427783683 StringCalculatorTest.java 1869 8 21 5
