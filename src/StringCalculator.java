@@ -23,7 +23,7 @@ public class StringCalculator {
 				}*/
 				
 				sum = sum + Integer.parseInt(stringArray[i]);
-				System.out.println(sum + "...............");
+				
 				
 				count++;
 			}
