@@ -4,3 +4,4 @@ FileOpenedAction 1496426091211 StringCalculatorException.java 63 0 0 0
 RefactoringAction 1496426136374 StringCalculatorTest.java REMOVE test() METHOD
 RefactoringAction 1496426139401 StringCalculatorTest.java ADD void testAdd() METHOD
 EditAction 1496426251097 StringCalculator.java 390 1 4 0
+EditAction 1496426254569 StringCalculatorTest.java 289 1 3 1
