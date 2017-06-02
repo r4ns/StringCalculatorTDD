@@ -14,3 +14,9 @@ RefactoringAction 1496426492786 StringCalculatorTest.java ADD void testAddWithnC
 RefactoringAction 1496426499313 StringCalculatorTest.java RENAME testAddWithnCharacter()=>void testCharacter() METHOD
 EditAction 1496426501898 StringCalculator.java 648 1 7 0
 EditAction 1496426504983 StringCalculatorTest.java 486 2 6 2
+UnitTestCaseAction 1496426508791 StringCalculatorTest.java OK
+UnitTestSessionAction 1496426508794 StringCalculatorTest.testCharacter OK
+RefactoringAction 1496426531907 StringCalculatorTest.java REMOVE testCharacter() METHOD
+RefactoringAction 1496426572938 StringCalculatorTest.java ADD void testAdd()/2 METHOD
+RefactoringAction 1496426574963 StringCalculatorTest.java RENAME testAdd()/2=>void testAdd2() METHOD
+EditAction 1496426584607 StringCalculatorTest.java 480 2 6 2
