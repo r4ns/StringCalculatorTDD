@@ -9,6 +9,14 @@ public class StringCalculatorTest {
 		
 		StringCalculator calc = new StringCalculator();
 		assertEquals(0,calc.add(""));
+	}
+	
+	@Test
+	public void testString(){
+		
+		StringCalculator calc = new StringCalculator();
+		assertEquals(5,calc.add("2,3"));
+		
 		
 	}
 

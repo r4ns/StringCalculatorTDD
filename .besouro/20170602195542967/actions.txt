@@ -1,2 +1,7 @@
 FileOpenedAction 1496426143584 StringCalculatorTest.java 162 1 0 0
 EditAction 1496426307212 StringCalculatorTest.java 219 1 2 1
+UnitTestCaseAction 1496426325763 StringCalculatorTest.java OK
+UnitTestSessionAction 1496426325767 StringCalculatorTest.java OK
+RefactoringAction 1496426364396 StringCalculatorTest.java ADD void tes FIELD
+RefactoringAction 1496426367913 StringCalculatorTest.java RENAME tes=>void testString() METHOD
+EditAction 1496426528238 StringCalculatorTest.java 349 2 4 2
