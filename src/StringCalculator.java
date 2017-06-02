@@ -23,14 +23,7 @@ public class StringCalculator {
 					continue;
 				}*/
 				
-				try{
-					
-					String x = stringArray[i];
-					Integer.parseInt(x);
-				} catch(NumberFormatExcetion e) {
-					
-					
-				}
+				
 				
 				
 				
