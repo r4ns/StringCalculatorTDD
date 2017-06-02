@@ -34,9 +34,7 @@ public class StringCalculatorTest {
 		
 		StringCalculator calc = new StringCalculator();
 		calc.add("1\n");
-		
-		
-		
+			
 	}
 	
 	
