@@ -9,7 +9,8 @@ public class StringCalculator {
 			return 0;
 		} else {
 			
-			String stringArray[] = numbersStr.split(",|\\\n");
+			//String stringArray[] = numbersStr.split(",|\\\n");
+			String stringArray[] = numbersStr.split("\\s*,\\s*");
 			/*for(int i=0; i<stringArray.length; i++){
 				
 				System.out.println(stringArray[i]);
