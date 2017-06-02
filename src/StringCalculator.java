@@ -11,10 +11,7 @@ public class StringCalculator {
 			{
 				throw new StringCalculatorException();
 			}
-			if(numbersStr=="")
-			{
-				return 0;
-			}
+			
 			
 		}
 			for(int i=0;i<niz.length;i++){
@@ -22,6 +19,10 @@ public class StringCalculator {
 			numbers[i]=Integer.parseInt(niz[i]);
 			if(numbers[i]<0){
 				throw new StringCalculatorException();
+			}
+			else if(numbers.length==0)
+			{
+				return 0;
 			}
 		}
 		int rezultat=0;
