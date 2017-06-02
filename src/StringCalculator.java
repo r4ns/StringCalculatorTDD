@@ -9,7 +9,7 @@ public class StringCalculator {
 			
 			if(numbersStr.substring(i, i+2).equals(",\n")||numbersStr.substring(i,i+2).equals("\n,"))
 			{
-				throw new StringCalculatorException();
+				throw new StringCalculatorException("Greska!");
 			}
 			
 			
@@ -18,7 +18,7 @@ public class StringCalculator {
 			
 			numbers[i]=Integer.parseInt(niz[i]);
 			if(numbers[i]<0){
-				throw new StringCalculatorException();
+				throw new StringCalculatorException("Nije moguce vrsiti  datu operaciju sa negativnim brojevima");
 			}
 			
 		}

@@ -54,3 +54,6 @@
 1496427103082 test-first 3 363 true
 1496427103083 test-first 3 363 true
 1496427103084 test-first 3 363 true
+1496427139444 test-addition 1 6 true
+1496427139445 test-addition 1 6 true
+1496427139446 test-addition 1 6 true
