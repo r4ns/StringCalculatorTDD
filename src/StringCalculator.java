@@ -10,19 +10,21 @@ public class StringCalculator {
 		} else {
 			
 			String stringArray[] = numbersStr.split(",|\\\n");
-			for(int i=0; i<stringArray.length; i++){
+			/*for(int i=0; i<stringArray.length; i++){
 				
 				System.out.println(stringArray[i]);
 				
-			}
+			}*/
 			for(int i=0; i<stringArray.length; i++){
 				
-				/*f(stringArray[i] == "\n"){
+				/*(stringArray[i] == "\n"){
 					
 					continue;
 				}*/
 				
 				sum = sum + Integer.parseInt(stringArray[i]);
+				System.out.println(sum);
+				
 				count++;
 			}
 			
