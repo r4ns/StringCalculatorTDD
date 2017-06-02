@@ -19,8 +19,8 @@ public class StringCalculatorTest {
 	@Test
 	public void testChar() throws StringCalculatorException {
 		StringCalculator digitron = new StringCalculator();
-		int rezultat = 8;
-		assertEquals(rezultat,digitron.add("3/n2,3"));
+		int rezultat = 6;
+		assertEquals(rezultat,digitron.add("1\n2,3"));
 	}
 
 }

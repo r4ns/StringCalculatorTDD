@@ -33,3 +33,6 @@ EditAction 1496426662182 StringCalculatorTest.java 673 3 9 3
 UnitTestCaseAction 1496426665836 StringCalculatorTest.java FAIL
 UnitTestSessionAction 1496426665838 StringCalculatorTest.testChar FAIL
 EditAction 1496426682160 StringCalculatorTest.java 672 3 9 3
+UnitTestCaseAction 1496426685745 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1496426685750 StringCalculatorTest.java FAIL
+EditAction 1496426726416 StringCalculatorTest.java 672 3 9 3
