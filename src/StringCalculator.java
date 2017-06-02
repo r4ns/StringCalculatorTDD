@@ -11,10 +11,11 @@ public class StringCalculator {
 			{
 				throw new StringCalculatorException();
 			}
-			if(niz.length==0)
+			if(numbersStr.length()==0)
 			{
 				return 0;
 			}
+			
 		}
 			for(int i=0;i<niz.length;i++){
 			
