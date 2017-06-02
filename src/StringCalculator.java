@@ -18,10 +18,21 @@ public class StringCalculator {
 			}*/
 			for(int i=0; i<stringArray.length; i++){
 				
-				if(stringArray[i] == "\n"){
+				/*if(stringArray[i] == "\n"){
 					
 					continue;
+				}*/
+				
+				try{
+					
+					String x = stringArray[i];
+					Integer.parseInt(x);
+				} catch(NumberFormatExcetion e) {
+					
+					
 				}
+				
+				
 				
 				sum = sum + Integer.parseInt(stringArray[i]);
 				
