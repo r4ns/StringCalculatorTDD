@@ -55,5 +55,17 @@ public class StringCalculatorTest {
 		int rezultat = 0;
 		assertEquals(rezultat,digitron.oduzimanje(""));
 	}
+	@Test
+	public void testOduzmiBrojeve() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		int rezultat = 3;
+		assertEquals(rezultat,digitron.oduzimanje("5,1,1"));
+	}
+	@Test
+	public void testOduzmiBrojev2() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		int rezultat = 3;
+		assertEquals(rezultat,digitron.oduzimanje("5\n1,1"));
+	}
 
 }
