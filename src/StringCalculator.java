@@ -8,6 +8,18 @@ public class StringCalculator {
 				throw new StringCalculatorException();
 			}
 		}
-		return 0;
+			for(int i=0;i<niz.length;i++){
+			
+			brojevi[i]=Integer.parseInt(niz[i]);
+			if(brojevi[i]<0){
+				throw new StringCalculatorException();
+			}
+		}
+		int rezultat=0;
+		for(int i=0;i<brojevi.length;i++){
+			rezultat+=brojevi[i];
+		}
+		return rezultat;
 	}
+	
 }
