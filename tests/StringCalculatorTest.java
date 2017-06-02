@@ -50,22 +50,96 @@ public class StringCalculatorTest {
 		digitron.add("1\n,");
 	}
 	@Test
-	public void testOduzmiPocetak() throws StringCalculatorException {
+	public void testsubtraction() throws StringCalculatorException {
 		StringCalculator digitron = new StringCalculator();
 		int rezultat = 0;
-		assertEquals(rezultat,digitron.oduzimanje(""));
+		assertEquals(rezultat,digitron.subtraction(""));
 	}
 	@Test
-	public void testOduzmiBrojeve() throws StringCalculatorException {
+	public void testsubtractionJednostavno() throws StringCalculatorException {
 		StringCalculator digitron = new StringCalculator();
 		int rezultat = 3;
-		assertEquals(rezultat,digitron.oduzimanje("5,1,1"));
+		assertEquals(rezultat,digitron.subtraction("5,1,1"));
 	}
 	@Test
-	public void testOduzmiBrojev2() throws StringCalculatorException {
+	public void testsubtractionSan() throws StringCalculatorException {
 		StringCalculator digitron = new StringCalculator();
 		int rezultat = 3;
-		assertEquals(rezultat,digitron.oduzimanje("5\n1,1"));
+		assertEquals(rezultat,digitron.subtraction("5\n1,1"));
+	}
+	@Test(expected=StringCalculatorException.class)
+	public void testMinusExceptionMinus() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		digitron.subtraction("-1,2,3");
+	}
+	@Test(expected=StringCalculatorException.class)
+	public void testMinusExceptionn() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		digitron.subtraction("1,\n");
+	}
+	@Test(expected=StringCalculatorException.class)
+	public void testMinusExceptionn2() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		digitron.subtraction("1\n,");
+	}
+	@Test(expected=StringCalculatorException.class)
+	public void testMinusKadRezultatIdeUMinus() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		digitron.subtraction("5,1,6");
+	}
+	@Test
+	public void testmultiplication() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		int rezultat = 0;
+		assertEquals(rezultat,digitron.multiplication(""));
+	}
+	@Test
+	public void testmultiplicationSaZarezom() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		int rezultat = 6;
+		assertEquals(rezultat,digitron.multiplication("1,2,3"));
+	}
+	@Test
+	public void testmultiplicationSaCharactern() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		int rezultat = 6;
+		assertEquals(rezultat,digitron.multiplication("1\n2,3"));
+	}
+	@Test(expected=StringCalculatorException.class)
+	public void testmultiplicationExceptionMinus() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		digitron.multiplication("-1,2,3");
+	}
+	@Test(expected=StringCalculatorException.class)
+	public void testmultiplicationExceptionn() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		digitron.multiplication("1,\n");
+	}
+	@Test(expected=StringCalculatorException.class)
+	public void testmultiplicationExceptionn2() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		digitron.multiplication("1\n,");
+	}
+
+	@Test
+	public void testdevide() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		float rezultat = 0;
+		
+		//assertEquals(rezultat,digitron.devide(""));
+		assertEquals(rezultat,digitron.devide("") );
+	}
+	@Test
+	public void testdevideJednostavno() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		double rezultat = 0.2;
+		assertEquals(rezultat,digitron.devide("1,1,5"));
+	}
+	@Test
+	public void testdevideSaN() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		double rezultat = 0.2;
+		assertEquals(rezultat,digitron.devide("5\n1,1"));
 	}
 
 }
