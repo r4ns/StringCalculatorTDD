@@ -62,3 +62,4 @@ UnitTestSessionAction 1496427062323 StringCalculatorTest.java FAIL
 RefactoringAction 1496427075339 StringCalculatorTest.java REMOVE testSpace() METHOD
 RefactoringAction 1496427094467 StringCalculatorTest.java ADD void testAddjustOnenumber() METHOD
 EditAction 1496427096612 StringCalculator.java 660 1 7 0
+EditAction 1496427099464 StringCalculatorTest.java 1066 4 12 4
