@@ -18,10 +18,10 @@ public class StringCalculator {
 			}*/
 			for(int i=0; i<stringArray.length; i++){
 				
-				/*(stringArray[i] == "\n"){
+				if(stringArray[i] == "\n"){
 					
 					continue;
-				}*/
+				}
 				
 				sum = sum + Integer.parseInt(stringArray[i]);
 				
