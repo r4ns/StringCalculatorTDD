@@ -29,3 +29,4 @@ UnitTestSessionAction 1496427672532 StringCalculatorTest.java FAIL
 FileOpenedAction 1496427800963 StringCalculatorException.java 63 0 0 0
 RefactoringAction 1496427810486 StringCalculatorException.java ADD StringCalculatorException() METHOD
 EditAction 1496427815787 StringCalculatorException.java 111 1 0 0
+EditAction 1496427872617 StringCalculatorException.java 138 1 1 0
