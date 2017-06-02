@@ -1,6 +1,9 @@
 
 public class StringCalculator {
 	public int add(String numbersStr) throws StringCalculatorException {
+		if(numbersStr==""){
+			return 0;
+		}
 		String[] niz=numbersStr.split(",|\\\n");
 		int[] numbers=new int[niz.length];
 		
