@@ -20,7 +20,7 @@ public class StringCalculatorTest {
 	public void testChar() throws StringCalculatorException {
 		StringCalculator digitron = new StringCalculator();
 		int rezultat = 8;
-		assertEquals(rezultat,digitron.add("3/n,2,3"));
+		assertEquals(rezultat,digitron.add("3/n2,3"));
 	}
 
 }

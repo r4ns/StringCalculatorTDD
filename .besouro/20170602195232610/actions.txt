@@ -30,3 +30,6 @@ RefactoringAction 1496426652260 StringCalculatorTest.java RENAME testwith()=>voi
 RefactoringAction 1496426657313 StringCalculatorTest.java RENAME testwith()=>void test() METHOD
 RefactoringAction 1496426658838 StringCalculatorTest.java RENAME test()=>void testChar() METHOD
 EditAction 1496426662182 StringCalculatorTest.java 673 3 9 3
+UnitTestCaseAction 1496426665836 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1496426665838 StringCalculatorTest.testChar FAIL
+EditAction 1496426682160 StringCalculatorTest.java 672 3 9 3
