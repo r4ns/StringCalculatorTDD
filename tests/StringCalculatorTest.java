@@ -22,5 +22,11 @@ public class StringCalculatorTest {
 		int rezultat = 6;
 		assertEquals(rezultat,digitron.add("1\n2,3"));
 	}
+	@Test
+	public void testSpace() throws StringCalculatorException {
+		StringCalculator digitron = new StringCalculator();
+		int rezultat = 0;
+		assertEquals(rezultat,digitron.add(" "));
+	}
 
 }
