@@ -20,3 +20,13 @@ RefactoringAction 1496426531907 StringCalculatorTest.java REMOVE testCharacter()
 RefactoringAction 1496426572938 StringCalculatorTest.java ADD void testAdd()/2 METHOD
 RefactoringAction 1496426574963 StringCalculatorTest.java RENAME testAdd()/2=>void testAdd2() METHOD
 EditAction 1496426584607 StringCalculatorTest.java 480 2 6 2
+UnitTestCaseAction 1496426588478 StringCalculatorTest.java OK
+UnitTestSessionAction 1496426588481 StringCalculatorTest.java OK
+RefactoringAction 1496426623597 StringCalculatorTest.java ADD void testAdd2()/2 METHOD
+RefactoringAction 1496426628123 StringCalculatorTest.java RENAME testAdd2()/2=>void test() METHOD
+RefactoringAction 1496426630145 StringCalculatorTest.java RENAME test()=>void testChar() METHOD
+RefactoringAction 1496426648229 StringCalculatorTest.java RENAME testChar()=>void testwith() METHOD
+RefactoringAction 1496426652260 StringCalculatorTest.java RENAME testwith()=>void testwith FIELD
+RefactoringAction 1496426657313 StringCalculatorTest.java RENAME testwith()=>void test() METHOD
+RefactoringAction 1496426658838 StringCalculatorTest.java RENAME test()=>void testChar() METHOD
+EditAction 1496426662182 StringCalculatorTest.java 673 3 9 3
