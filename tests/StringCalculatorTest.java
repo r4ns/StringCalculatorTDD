@@ -28,7 +28,6 @@ public class StringCalculatorTest {
 	}
 	
 	
-	
 	@Test(expected=StringCalculatorException.class)
 	public void testString3() throws StringCalculatorException{
 		
