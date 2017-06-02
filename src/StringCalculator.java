@@ -20,10 +20,7 @@ public class StringCalculator {
 			if(numbers[i]<0){
 				throw new StringCalculatorException();
 			}
-			else if(numbers.length==0)
-			{
-				return 0;
-			}
+			
 		}
 		int rezultat=0;
 		for(int i=0;i<numbers.length;i++){
