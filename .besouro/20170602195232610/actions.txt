@@ -76,3 +76,10 @@ RefactoringAction 1496427240016 StringCalculatorException.java RENAME TennisGame
 EditAction 1496427388124 StringCalculator.java 729 1 7 0
 CompilationAction 1496427391044 StringCalculator.java
 EditAction 1496427391215 StringCalculatorException.java 136 1 1 0
+UnitTestCaseAction 1496427395243 StringCalculatorTest.java OK
+UnitTestSessionAction 1496427395245 StringCalculatorTest.java OK
+RefactoringAction 1496427602946 StringCalculatorTest.java ADD void testOduzmiPocetak() METHOD
+RefactoringAction 1496427633770 StringCalculator.java ADD int oduzimanje FIELD
+RefactoringAction 1496427635795 StringCalculator.java RENAME oduzimanje=>int oduzimanje() METHOD
+RefactoringAction 1496427641857 StringCalculator.java RENAME oduzimanje()=>int oduzimanje(String) METHOD
+EditAction 1496427780571 StringCalculator.java 1517 2 16 0
