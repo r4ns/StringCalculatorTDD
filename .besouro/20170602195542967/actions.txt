@@ -24,3 +24,8 @@ UnitTestSessionAction 1496427514804 StringCalculatorTest.java OK
 RefactoringAction 1496427559303 StringCalculatorTest.java ADD void testString2()/2 METHOD
 RefactoringAction 1496427564348 StringCalculatorTest.java RENAME testString2()/2=>void testString3() METHOD
 EditAction 1496427654126 StringCalculatorTest.java 652 4 8 3
+UnitTestCaseAction 1496427672529 StringCalculatorTest.java FAIL
+UnitTestSessionAction 1496427672532 StringCalculatorTest.java FAIL
+FileOpenedAction 1496427800963 StringCalculatorException.java 63 0 0 0
+RefactoringAction 1496427810486 StringCalculatorException.java ADD StringCalculatorException() METHOD
+EditAction 1496427815787 StringCalculatorException.java 111 1 0 0
