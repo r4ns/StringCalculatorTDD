@@ -13,3 +13,4 @@ UnitTestSessionAction 1496426312671 StringCalculatorTest.java OK
 RefactoringAction 1496426492786 StringCalculatorTest.java ADD void testAddWithnCharacter() METHOD
 RefactoringAction 1496426499313 StringCalculatorTest.java RENAME testAddWithnCharacter()=>void testCharacter() METHOD
 EditAction 1496426501898 StringCalculator.java 648 1 7 0
+EditAction 1496426504983 StringCalculatorTest.java 486 2 6 2
