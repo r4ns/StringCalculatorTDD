@@ -15,3 +15,4 @@ RefactoringAction 1496427167050 StringCalculatorTest.java REMOVE testStringArray
 RefactoringAction 1496427177591 StringCalculatorTest.java ADD void testString()/2 METHOD
 RefactoringAction 1496427184616 StringCalculatorTest.java RENAME testString()/2=>void testString2() METHOD
 EditAction 1496427213415 StringCalculatorTest.java 486 3 6 3
+EditAction 1496427428521 StringCalculator.java 513 1 2 0

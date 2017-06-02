@@ -8,8 +8,13 @@ public class StringCalculator {
 			return 0;
 		} else {
 			
-			String stringArray[] = numbersStr.split("\\s*,\\s*");
+			String stringArray[] = numbersStr.split("\\s*,\\s*\n");
 			for(int i=0; i<stringArray.length; i++){
+				
+				/*if(stringArray[i] == "\n"){
+					
+					continue;
+				}*/
 				
 				sum = sum + Integer.parseInt(stringArray[i]);
 			}
