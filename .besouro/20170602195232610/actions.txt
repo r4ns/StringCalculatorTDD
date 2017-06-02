@@ -74,3 +74,5 @@ UnitTestSessionAction 1496427139444 StringCalculatorTest.java OK
 RefactoringAction 1496427229485 StringCalculatorException.java ADD void TennisGameException(String) METHOD
 RefactoringAction 1496427240016 StringCalculatorException.java RENAME TennisGameException(String)=>String message FIELD
 EditAction 1496427388124 StringCalculator.java 729 1 7 0
+CompilationAction 1496427391044 StringCalculator.java
+EditAction 1496427391215 StringCalculatorException.java 136 1 1 0
