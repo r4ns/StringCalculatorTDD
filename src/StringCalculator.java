@@ -1,54 +1,192 @@
 
 public class StringCalculator {
-	public int add(String numbersStr) throws StringCalculatorException {
-		// Returns the sum of the numbers given in numbersStr
-		int sum = 0;
-		int count = 0;
-		if(numbersStr == "" ){
-			
+
+	public int add(String numbersStr) throws StringCalculatorException{
+
+		int sum=0;
+
+
+		if(numbersStr == ""){
+
 			return 0;
 		} else {
-			
-			//String stringArray[] = numbersStr.split(",|\\\n");
-			String stringArray[] = numbersStr.split("\\s*,\\s*");
-			/*for(int i=0; i<stringArray.length; i++){
-				
-				System.out.println(stringArray[i]);
-				
-			}*/
-			for(int i=0; i<stringArray.length; i++){
-				
-				/*if(stringArray[i] == "\n"){
-					
-					continue;
-				}*/
-				
-				
-				
-				
-				
-				sum = sum + Integer.parseInt(stringArray[i]);
-				
-				
-				count++;
+
+			//String stringArray[] = numbersStr.split("\\s*,\\s*");
+
+			String stringArray[] = numbersStr.split("\n|\\,");
+			if(stringArray.length == 1){
+
+				throw new StringCalculatorException();
 			}
-			
-			if(count == 1){
+
+			for(int i=0; i<stringArray.length; i++){
+
+
+				int x = Integer.parseInt(stringArray[i]);
+				if(x<0){
+
+					throw new StringCalculatorException();
+				}
+				sum = sum + x;
+
+			}
+
+			return sum;
+		}
+
+	}
+
+
+	public int minus(String numbersStr) throws StringCalculatorException{
+
+		int result = 0;
+
+		if(numbersStr == ""){
+
+			return 0;
+
+
+		} else {
+
+
+
+			String stringArray[] = numbersStr.split("\n|\\,");
+
+			if(stringArray.length == 1){
+
+				throw new StringCalculatorException();
+			}
+
+			for(int i=0; i<stringArray.length; i++){
+
+				if(Integer.parseInt(stringArray[i])<0){
+
+					throw new StringCalculatorException();
+				}
+
+
+			}
+			result = Integer.parseInt(stringArray[0]);
+			for(int i=1; i<stringArray.length; i++){
+
+				result = result - Integer.parseInt(stringArray[i]);
+
+
+			}
+
+			return result; 
+
+
+		}
+
+
+
+	}
+
+
+	public int divide(String numbersStr) throws StringCalculatorException{
+
+		double result;
+
+		if(numbersStr == ""){
+
+			return 0;
+
+		} else {
+
+			String stringArray[] = numbersStr.split("\n|\\,");
+			result = Integer.parseInt(stringArray[0]);
+			if(result<0){
 				
 				throw new StringCalculatorException();
 			}
-			
-			return sum;
-			
-			
-			
-			
+			if(stringArray.length == 1){
+
+				throw new StringCalculatorException();
+			}
+			for(int i=1; i<stringArray.length; i++){
+
+
+
+				double x = Integer.parseInt(stringArray[i]);
+				if(x<0){
+
+					throw new StringCalculatorException();
+				}
+
+				result = result/x;
+			}
+
+			return (int) result;
+
+
 		}
-		
-		
-		
-		
-		// not yet implemented
-		
+
+
+
+
+
+
 	}
+
+
+	public int mnozi(String numbersStr) throws StringCalculatorException{
+
+		int result = 0;
+
+		if(numbersStr == ""){
+
+			return 0;
+
+		} else {
+
+			String stringArray[] = numbersStr.split("\n|\\,");
+			
+			if(stringArray.length == 1){
+				
+				throw new StringCalculatorException();
+			}
+			result = Integer.parseInt(stringArray[0]);
+			
+			if(result < 0){
+				
+				throw new StringCalculatorException();
+			}
+			for(int i=1; i<stringArray.length; i++){
+				
+				
+
+				int x = Integer.parseInt(stringArray[i]);
+				if(x<0){
+					
+					throw new StringCalculatorException();
+				}
+				result = result*x;
+				
+			}
+			
+			return result;
+
+		}
+
+		
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+	// not yet implemented
+
 }
+
+
