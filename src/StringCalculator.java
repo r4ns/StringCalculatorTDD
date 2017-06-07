@@ -1,38 +1,157 @@
 
 public class StringCalculator {
-	public int add(String numbersStr) {
-		// Returns the sum of the numbers given in numbersStr
-		
-		// not yet implemented
-		return 0;
-	}
-
 	public StringCalculator() {
 	
 		
 	}
-	
-	public String saberi(String s){
+	public int add(String numbersStr) throws StringCalculatorException {
+		// Returns the sum of the numbers given in numbersStr
+		int rez = 0;
+		String brojevi [] = numbersStr.split(",|\\\n");
 		
-		int rez=0;
-		String nizBrojeva [] = s.split(",");
-		for(int i=0;i<nizBrojeva.length;i++)
+		if(numbersStr == " ")
 		{
-			if(nizBrojeva[0].contains("\n"))
+			throw new StringCalculatorException("Nije validan unos");
+		}
+		
+		for(int i=0;i<brojevi.length;i++)
+		{
+			rez+=Integer.parseInt(brojevi[i]);
+			
+			if(Integer.parseInt(brojevi[i])<0)
 			{
-				String brSa_n [] = nizBrojeva[0].split("\n");
-				i++;
-				rez = Integer.parseInt(brSa_n[0]) + Integer.parseInt(brSa_n[1]) + Integer.parseInt(nizBrojeva[i]);
+				throw new StringCalculatorException("Ne moze negativan broj");
 			}
-			else {
-				rez += Integer.parseInt(nizBrojeva[i]);
+			
+			
+		}
+		
+		if(rez == Integer.parseInt(brojevi[0]))
+		{
+			throw new StringCalculatorException("Input Nije validan");
+		}
+		
+		return rez;
+		
+	}
+	
+	public int pomnozi(String numbersStr) throws StringCalculatorException {
+		int rez = 1;
+		
+		String brojevi [] = numbersStr.split(",|\\\n");
+		
+		
+		for(int i=0;i<brojevi.length;i++)
+		{
+			rez*=Integer.parseInt(brojevi[i]);
+			if(Integer.parseInt(brojevi[i])<0)
+			{
+				throw new StringCalculatorException("Ne moze negativan broj");
 			}
 			
 		}
 		
-		String rezultat = Integer.toString(rez);
-		return rezultat;
+		if(rez == Integer.parseInt(brojevi[0]))
+		{
+			throw new StringCalculatorException("Input Nije validan");
+		}
+		
+		if(numbersStr == "")
+		{
+			throw new StringCalculatorException("Nije validan unos");
+		}
+		
+		
+		return rez;
+		
 	}
+	
+	public int oduzmi(String numbersStr) throws StringCalculatorException {
+    int rez = 0;
+		
+		String brojevi [] = numbersStr.split(",|\\\n");
+		
+		
+		for(int i=0;i<brojevi.length;i++)
+		{
+			
+			if(i==0)
+			{
+				rez=Integer.parseInt(brojevi[0]);
+			}
+			else 
+			{
+				rez-=Integer.parseInt(brojevi[i]);
+			}
+			
+			if(Integer.parseInt(brojevi[i])<0)
+			{
+				throw new StringCalculatorException("Ne moze negativan broj");
+			}
+			
+		}
+		
+		if(rez == Integer.parseInt(brojevi[0]))
+		{
+			throw new StringCalculatorException("Input Nije validan");
+		}
+		
+		if(numbersStr == "")
+		{
+			throw new StringCalculatorException("Nije validan unos");
+		}
+		
+		return rez;
+		
+	}
+	
+	public float podeli(String numbersStr) throws StringCalculatorException {
+    float rez = 0;
+		
+		String brojevi [] = numbersStr.split(",|\\\n");
+			
+		for(int i=0;i<brojevi.length;i++)
+		{
+			
+			if(i==0)
+			{
+				rez=Float.parseFloat(brojevi[0]);
+			}
+			else 
+			{
+				rez/=Float.parseFloat(brojevi[i]);
+			}
+			if(Float.parseFloat(brojevi[i])<0)
+			{
+				throw new StringCalculatorException("Ne moze negativan broj");
+			}
+			
+			
+		}
+		
+		if(rez == Float.parseFloat(brojevi[0]))
+		{
+			throw new StringCalculatorException("Input Nije validan");
+		}
+		
+		if(numbersStr == "")
+		{
+			throw new StringCalculatorException("Nije validan unos");
+		}
+		
+		return rez;
+		
+	}
+	
+	
+
+	
+	
+	
+
+	
+	
+	
 
 	
 	
