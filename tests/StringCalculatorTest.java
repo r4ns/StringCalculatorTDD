@@ -80,4 +80,61 @@ public class StringCalculatorTest {
 		StringCalculator s1=new StringCalculator();
 		int broj=s1.subtraction("-2,1\n2");
 	}
+	
+	
+	@Test
+	public void testDivideTwoNumbers() throws StringCalculatorException{
+		StringCalculator s1=new StringCalculator();
+		int broj=s1.divide("2,1");
+		assertEquals(2,broj);
+	}
+	
+	@Test
+	public void testDivideTwoNum() throws StringCalculatorException{
+		StringCalculator s1=new StringCalculator();
+		int broj=s1.divide("2\n1");
+		assertEquals(2,broj);
+	}
+	
+	@Test(expected=StringCalculatorException.class)
+	public void testNegativeNum() throws StringCalculatorException{
+		StringCalculator s1=new StringCalculator();
+		int broj=s1.divide("-2,1\n2");
+	}
+	
+	@Test
+	public void testSubEmptyStr() throws StringCalculatorException{
+		StringCalculator s1=new StringCalculator();
+		int broj=s1.divide("");
+		assertEquals(0,broj);
+	}
+	
+	
+	
+	@Test
+	public void testDivideTwoNumber() throws StringCalculatorException{
+		StringCalculator s1=new StringCalculator();
+		int broj=s1.multiple("2,1");
+		assertEquals(2,broj);
+	}
+	
+	@Test
+	public void testDivideTwoNumberr() throws StringCalculatorException{
+		StringCalculator s1=new StringCalculator();
+		int broj=s1.multiple("2,1");
+		assertEquals(2,broj);
+	}
+	
+	@Test(expected=StringCalculatorException.class)
+	public void testNegativeNumb() throws StringCalculatorException{
+		StringCalculator s1=new StringCalculator();
+		int broj=s1.multiple("-2,1\n2");
+	}
+	
+	@Test
+	public void testSubEmptyStrings() throws StringCalculatorException{
+		StringCalculator s1=new StringCalculator();
+		int broj=s1.multiple("");
+		assertEquals(0,broj);
+	}
 }
