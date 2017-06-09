@@ -6,6 +6,7 @@ public class StringCalculator {
 					{
 						return 0;
 					}
+		
 					
 					// Separating the string by the given delimiter
 					String[] stringArray = numbersStr.split(",|\\\n");
