@@ -21,20 +21,25 @@ public class StringCalculator {
 	}
 	public int subtraction(String numbersStr) throws StringCalculatorException
 	{
-		int res=0;
-		if(numbersStr=="")
-			return 0;
-		else{
-			String[] stringNumbers = numbersStr.split(",|\\\n");
-			
-			for(int i=0; i<stringNumbers.length; i++)
-			{
-				if(Integer.parseInt(stringNumbers[i]) < 0)
-					throw new StringCalculatorException();
-				else
-					res-=Integer.parseInt(stringNumbers[i]);
-			}
-			return res;
+		try{
+			int res=0;
+			if(numbersStr=="")
+				return 0;
+			else{
+				String[] stringNumbers = numbersStr.split(",|\\\n");
+				
+				for(int i=0; i<stringNumbers.length; i++)
+				{
+					if(Integer.parseInt(stringNumbers[i]) < 0)
+						throw new StringCalculatorException();
+					else
+						  res = Integer.parseInt(stringNumbers[i]) - Integer.parseInt(stringNumbers[i+1]);
+				}
+				return res;
+		}}
+		catch(StringCalculatorException e)
+		{
+			throw new StringCalculatorException();
 		}
 	}
 	

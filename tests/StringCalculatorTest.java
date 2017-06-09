@@ -44,5 +44,25 @@ public class StringCalculatorTest {
 		StringCalculator calc = new StringCalculator();
 		assertEquals(10, calc.subtraction("20,10"));
 	}
+	
+	@Test
+	public void test7() throws StringCalculatorException {
+		
+		StringCalculator calc = new StringCalculator();
+		assertEquals(0,calc.subtraction(""));
+	}
+	
+	@Test(expected=StringCalculatorException.class)
+	public void test8() throws StringCalculatorException{
+		StringCalculator calc = new StringCalculator();
+		calc.subtraction("-10,10");
+		
+	}
+	@Test(expected=StringCalculatorException.class)
+	public void test9() throws StringCalculatorException{
+		StringCalculator calc = new StringCalculator();
+		calc.subtraction("ashf");
+		
+	}
 
 }
